@@ -29,6 +29,7 @@ module.exports = function(grunt) {
   };
 
   // When task runner has started
+  /*
   taskrun.on('start', function() {
     Object.keys(changedFiles).forEach(function(filepath) {
       // Log which file has changed, and how.
@@ -37,6 +38,7 @@ module.exports = function(grunt) {
     // Reset changedFiles
     changedFiles = Object.create(null);
   });
+  */
 
   // When task runner has ended
   taskrun.on('end', function(time) {
